@@ -36,7 +36,7 @@ public class LoginController {
 	@Autowired
 	private MemberService memberService;
 	
-	private MemberRepository memberRepository;
+	private MemberRepository memberRepository; 
 	private HttpSession httpSession;
 
 	@Autowired
